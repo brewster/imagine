@@ -1,0 +1,20 @@
+{
+  "host": "127.0.0.1",
+  "port": 8101,
+  "max_sockets": 4096,
+
+  "storage": "imagine-file",
+
+  "operations": [
+    "imagine-magick"
+  ],
+
+  "logging": [
+    {
+      "type": "Console",
+      "level": "verbose",
+      "colorize": true,
+      "timestamp": true
+    }
+  ]
+}

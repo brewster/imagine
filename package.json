@@ -1,0 +1,31 @@
+{
+  "name": "imagine",
+  "version": "0.1.0",
+  "description": "Real-time image processing and storage host",
+  "homepage": "https://github.com/brewster/imagine",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brewster/imagine"
+  },
+
+  "dependencies": {
+    "imagine-file": "~ 0.1.0",
+    "imagine-cloudfiles": "~ 0.1.0",
+    "imagine-magick": "~ 0.0.1",
+    "obj-extend": "~ 0.1.0",
+    "winston": "~ 0.5.11"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "sinon": "*"
+  },
+
+  "scripts": {
+    "test": "mocha -r should -R spec"
+  },
+
+  "license": "MIT"
+}
