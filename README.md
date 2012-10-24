@@ -43,21 +43,25 @@ example:
 
 ## Default Image Stores
 
-Imagine has file storage and Cloudfiles storage built-in using the
-[Imagine-File](https://github.com/brewster/imagine-file) and 
-[Imagine-Cloudfiles](https://github.com/brewster/imagine-cloudfiles) modules.
-Switch to Cloudfiles by editing your config as such:
+Imagine has three different image storage options included by default:
+
+- [Imagine-File](https://github.com/brewster/imagine-file) - Local file storage
+- [Imagine-Cloudfiles](https://github.com/brewster/imagine-cloudfiles) - 
+Rackspace Cloud Files
+- [Imagine-S3](https://github.com/brewster/imagine-s3) - Amazon S3
+
+For example, you can switch to S3 by editing your config as such:
 
 ``` javascript
-"storage": "imagine-cloudfiles",
+"storage": "imagine-s3",
 
-"imagine-cloudfiles": {
-  "user": "USER",
+"imagine-s3": {
   "key": "KEY",
-  "containerPrefix": "imagine-assets",
-  "containerHashLength": 4
+  "secret": "SECRET",
+  "bucket": "mybucket"
 }
 ```
+Visit each storage module's github page for more information.
 
 ## Operation & Storage Modules
 
