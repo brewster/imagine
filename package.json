@@ -10,8 +10,9 @@
   },
 
   "dependencies": {
-    "imagine-file": "~ 0.1.0",
+    "imagine-file": "~ 0.1.1",
     "imagine-cloudfiles": "~ 0.1.0",
+    "imagine-s3": "~ 0.1.0",
     "imagine-magick": "~ 0.0.1",
     "obj-extend": "~ 0.1.0",
     "winston": "~ 0.5.11"
