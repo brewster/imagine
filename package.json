@@ -1,6 +1,6 @@
 {
   "name": "imagine",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Real-time image processing and storage host",
   "homepage": "https://github.com/brewster/imagine",
 
@@ -13,7 +13,7 @@
     "imagine-file": "~ 0.1.1",
     "imagine-cloudfiles": "~ 0.1.0",
     "imagine-s3": "~ 0.1.0",
-    "imagine-magick": "~ 0.0.1",
+    "imagine-magick": "~ 0.0.2",
     "obj-extend": "~ 0.1.0",
     "winston": "~ 0.5.11"
   },
